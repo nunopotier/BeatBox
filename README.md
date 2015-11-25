@@ -8,4 +8,5 @@ As duas versãos podem ser descarregadas do seguinte link: http://pgiaooasis.x10
 As diferenças entre as versões estão ilustradas no printscreen do GitHub Desktop, também disponível no link acima.
 
 Foi submetido no GitHub como exemplo para o trabalho de grupo da cadeira de GETIC do ISCTE, sobre Git, GitHub e GitHub Desktop em 2015/2016.
+
 Alunos: Dennis Pinto, Milena Melo, Mónica Cruz e Nuno Potier.
