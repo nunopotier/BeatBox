@@ -29,20 +29,26 @@ public class BeatBox {
     }
     
     public void buildGUI() {
-        theFrame = new JFrame("Cyber BeatBox");
+        theFrame = new JFrame("BeatBox Espectacular");
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         BorderLayout layout = new BorderLayout();
         JPanel background = new JPanel(layout);
+        background.setBackground(Color.WHITE);
+        background.setOpaque(true);
         background.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
         
         checkboxList = new ArrayList<>();
         Box buttonBox = new Box(BoxLayout.Y_AXIS);
         
         JButton start = new JButton("Start");
+        start.setBackground(Color.GREEN);
+        start.setOpaque(true);
         start.addActionListener(new MyStartListener());
         buttonBox.add(start);
         
         JButton stop = new JButton("Stop");
+        stop.setBackground(Color.RED);
+        stop.setOpaque(true);
         stop.addActionListener(new MyStopListener());
         buttonBox.add(stop);
         
